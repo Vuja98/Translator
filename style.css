@@ -172,8 +172,30 @@ li,
     height: 15rem;
   }
   .controls .row .icons {
-    display: none;
+    width: 100%;
   }
+  .controls .row .icons i {
+    width: 4rem;
+    color: #adadad;
+    font-size: 1.6rem;
+  }
+
+  .icons {
+    justify-content: start;
+    margin: 0;
+  }
+  .from-icons {
+    position: absolute;
+    top: 33%;
+    left: 10%;
+  }
+
+  .to-icons {
+    position: absolute;
+    top: 64%;
+    left: 10%;
+  }
+
   .container button {
     padding: 1rem;
     font-size: 1.5rem;
